@@ -1,14 +1,21 @@
-# Data1030-OnlineShopping
+# Customers' Intention (Data1030-OnlineShopping)
 
-## The balance of the dataset
-- balance: the fraction of data points that belong to the most populous class
-- the balance of the classification problem is the first thing you should check!
-- it gives a baseline accuracy score
-    - the simplest classifier that predicts class 0 to all points is correct 75.9% of the time
-    - a classification model has predictive power if it is  more accurate than the baseline
-- it can guide what evaluation metric should be used
-    - imbalanced problems: most points belong to class 0
-       - accuracy is not a good metric because the baseline is high
-       
-       
-       
+### Project Description:
+The project dealt with the data set collected from Gözalan Group. After prepocessing and visualizing, the project conducted three different models to train classifiers. The goal is to predict customers' intention given features related to the shopping website. 
+
+
+
+### Prerequisites (Dependencies):
+  - matplotlib-base=3.1.1
+  - pandas=0.25.0
+  - scikit-learn=0.21.3
+  - py-xgboost=0.90
+  - numpy=1.17.1
+  - lime=0.1.1.36
+  - jupyter_client=5.3.1
+  - jupyter_core=4.4.0
+  - jupyterlab=1.1.1
+  - jupyterlab_server=1.0.6
+  - jupytext=1.2.4
+  - python=3.7.3
+
